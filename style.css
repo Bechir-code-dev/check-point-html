@@ -1,4 +1,37 @@
-.nav {
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+  }
+  navbar {
     display: inline;
-    font-family: helvetica neue, roboto
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #333;
+    padding: 10px;
+  }  
+h3 {
+    color: red;
+    text-align: center;
+}
+p {
+    color: beige;
+    font-size: small;
+    text-align: justify;
+    
+}
+.name {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bechir{
+    text-align: right;
+}
+.raboudi{
+    font-size: 1.vmax;
+    text-transform: lowercase;
+}
+a:hover{
+    background-color: yellow;
+    font-size: 25px;
 }
